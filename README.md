@@ -3,6 +3,7 @@ This repository containts a moc UI for an e-commerce dashboard "EasyBay." The UI
 
 
 ### Moc Image to Mimic
-![Moc](https://github.com/lilipach/EasyBay-Moc/blob/master/Static/shoppingCart.png)
+![Moc](https://github.com/lilipach/EasyBay-Moc/blob/master/Static/succulentshop.png)
 
 ### Actual
+![EasyBay](https://github.com/lilipach/EasyBay-Moc/blob/master/Static/EasyBay.png)

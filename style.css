@@ -1,0 +1,91 @@
+.userIcon{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: solid black;
+}
+
+.icon{
+    height: 40px;
+    width: 40px;
+    margin: 15px;
+}
+
+.icon2{
+    height: 50px;
+    width: 50px;
+    margin-left: 15px;
+}
+
+.prodImage{
+    min-height: 200px;
+    min-width: 200px;
+    max-height: 300px;
+    max-width: 250px;
+    margin: auto;
+    padding: 10px;
+}
+
+.prodImage2{
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    padding: 10px;
+}
+
+.prodTitle{
+    font-size: 40px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+#mainProd{
+    background-image: url("Static/mocProducts/Phone1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    min-height: 300px;
+    min-width: 200px;
+    max-height: 350px;
+    max-width: 150px;
+    margin: auto;
+    padding: 10px;
+}
+
+#mainProd:hover{
+    background-image: url('Static/mocProducts/Phone2.png');
+}
+
+.white {
+    background-color: green;
+}
+
+.white a{
+    color: white;
+    font-size: 20px;
+}
+
+.greenContainer{
+    background-color: green;
+    border: solid rgb(138, 135, 135);
+    color: white;
+}
+
+.grayContainer {
+    background-color: rgb(197, 195, 195);
+    border: solid green;
+}
+
+.lightContainer{
+    background-color: green;
+    border: solid green;
+    color: white;
+}
+
+
+
+
+
+

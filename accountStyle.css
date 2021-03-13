@@ -1,0 +1,18 @@
+.accountContent{
+    text-align: center;
+    padding: 40px; 
+    border: solid green;
+}
+
+.userInfo{
+    padding: 20px;
+    padding-top: 50px;
+    max-width: 1000px;
+    text-align: end;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.userInfo table th{
+    text-align: left;
+}

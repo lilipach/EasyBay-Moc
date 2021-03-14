@@ -8,12 +8,11 @@
 .icon{
     height: 40px;
     width: 40px;
-    margin: 15px;
 }
 
 .icon2{
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 60px;
     margin-left: 15px;
 }
 
@@ -23,7 +22,7 @@
     max-height: 300px;
     max-width: 250px;
     margin: auto;
-    padding: 10px;
+    padding: 20px;
 }
 
 .prodImage2{
@@ -52,6 +51,19 @@
     max-width: 150px;
     margin: auto;
     padding: 10px;
+}
+
+#prodContainer a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+#cart{
+    background-image: url('Static/shoppingCart.png');
+    background-size: contain;
+    border: solid rgb(138, 135, 135);
+    border-radius: 50%;
 }
 
 #mainProd:hover{

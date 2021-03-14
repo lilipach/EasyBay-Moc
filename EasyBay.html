@@ -35,22 +35,20 @@
                     <a class="nav-link"  href="signIn.html">Sign In</a>
                 </li>
                 <li class="nav-item active">
-                    <button type="button" class="btn" data-toggle="tooltip" data-placement="bottom" title="Cart Is Empty">
-                        <a href="shoppingCart.html"><img class="icon2" src="Static/shoppingCart.png" alt="cart"></a>
-                    </button>
+                    <button type="button" id="cart" class="btn icon2" data-toggle="tooltip" onclick="window.location.href='shoppingCart.html'" data-placement="bottom" title="Cart Is Empty"></button>
                 </li>
             </ul>
         </div>
     </nav>
 
     <nav class="nav nav-pills flex-column flex-sm-row white">
-        <a class="flex-sm-fill text-sm-center nav-link" href="#">Clothing</a>
-        <a class="flex-sm-fill text-sm-center nav-link" href="#">Electronics</a>
-        <a class="flex-sm-fill text-sm-center nav-link" href="#">Movies</a>
-        <a class="flex-sm-fill text-sm-center nav-link" href="#">Furniture</a>
-        <a class="flex-sm-fill text-sm-center nav-link" href="#">Tools</a>
-        <a class="flex-sm-fill text-sm-center nav-link" href="#">Makeup</a>
-        <a class="flex-sm-fill text-sm-center nav-link" href="#">Books</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="clothing.html">Clothing</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="electronics.html">Electronics</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="movies.html">Movies</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="furniture.html">Furniture</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="tools.html">Tools</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="makeup.html">Makeup</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="books.html">Books</a>
     </nav>
 
     <div class="container-full-bg jumbotron p-5" >
@@ -68,7 +66,7 @@
                             This is a random item description telling customer to purchase this awsome item. Here's another sentence to 
                             reallly get the customer hooked on this product. Now they're really thinking "wow I need to buy this right now! 
                             too bad I'm broke because of covid." Im just writing more text to fill up the box some more to make it 
-                            realistic to a real e commerce site.
+                            realistic to a real e commerce site. Okay just one more sentence and we will call it goot I think.
                         </p>
                         <button type="button" class="btn btn-secondary w-50">Discover -></button>
                     </div>
@@ -78,7 +76,7 @@
                             <a class ="prodTitle display-4" href="#"> Item Title</a>
                         </div>
                         <div class="row">
-                            <div id="mainProd"></div>
+                            <div id="mainProd" class="mb-5"></div>
                         </div>
                     </div>
                 </div>
@@ -94,14 +92,35 @@
             </div>
         </div>
 
-        <div class="d-flex justify-content-between flex-wrap p-4 lightContainer">
-            <a href="#"><img src="Static/mocProducts/hammer.png" alt="hammer" class="prodImage2"></a>
-            <a href="#"><img src="Static/mocProducts/cabinet.png" alt="cabinet" class="prodImage2"></a>
-            <a href="#"><img src="Static/mocProducts/shirt.png" alt="shirt" class="prodImage2"></a>
-            <a href="#"><img src="Static/mocProducts/cup.png" alt="cup" class="prodImage2"></a>
-            <a href="#"><img src="Static/mocProducts/shoe.png" alt="shoe" class="prodImage2"></a>
-            <a href="#"><img src="Static/mocProducts/cable.png" alt="cable" class="prodImage2"></a>
-            <a href="#"><img src="Static/mocProducts/chair.png" alt="chair" class="prodImage2"></a>
+        <div id="prodContainer" class="jumbotron d-flex justify-content-between flex-wrap p-4 lightContainer">
+            <a href="#">
+                <img src="Static/mocProducts/hammer.png" alt="hammer" class="prodImage2">
+                <p class="display-6">Hammer</p>
+            </a>
+            <a href="#">
+                <img src="Static/mocProducts/cabinet.png" alt="cabinet" class="prodImage2">
+                <p class="display-6">Cabinet</p>
+            </a>
+            <a href="#">
+                <img src="Static/mocProducts/shirt.png" alt="shirt" class="prodImage2">
+                <p class="display-6">Shirt</p>
+            </a>
+            <a href="#">
+                <img src="Static/mocProducts/cup.png" alt="cup" class="prodImage2">
+                <p class="display-6">Cup</p>
+            </a>
+            <a href="#">
+                <img src="Static/mocProducts/shoe.png" alt="shoe" class="prodImage2">
+                <p class="display-6">Shoe</p>
+            </a>
+            <a href="#">
+                <img src="Static/mocProducts/cable.png" alt="cable" class="prodImage2">
+                <p class="display-6">Cable</p>
+            </a>
+            <a href="#">
+                <img src="Static/mocProducts/chair.png" alt="chair" class="prodImage2">
+                <p class="display-6">Chair</p>
+            </a>
         </div>
         
 
